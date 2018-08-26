@@ -1,0 +1,9 @@
+com\lambert\manager\controller\FileUploadController.class
+com\lambert\manager\controller\ApiProductController.class
+com\lambert\manager\controller\CategoryController.class
+com\lambert\manager\controller\ContentCategoryController.class
+com\lambert\manager\controller\PageController.class
+com\lambert\manager\controller\ContentController.class
+com\lambert\manager\controller\ProductController.class
+com\lambert\manager\controller\TestDubboController.class
+com\lambert\manager\controller\ApiContentController.class

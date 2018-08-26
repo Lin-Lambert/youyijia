@@ -1,0 +1,7 @@
+com\lambert\manager\mapper\ContentcategoryMapper.class
+com\lambert\manager\mapper\ProductDescMapper.class
+com\lambert\manager\mapper\CartMapper.class
+com\lambert\manager\mapper\CategoryMapper.class
+com\lambert\manager\mapper\ContentMapper.class
+com\lambert\manager\mapper\ProductMapper.class
+com\lambert\manager\mapper\UserMapper.class

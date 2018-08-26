@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <option name="BUILD_PROCESS_HEAP_SIZE" value="1024" />
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="atguigu-order" />
+        <module name="cart-interface" />
+        <module name="cart-service" />
+        <module name="cart-web" />
+        <module name="common" />
+        <module name="manager-interface" />
+        <module name="manager-mapper" />
+        <module name="manager-pojo" />
+        <module name="manager-service" />
+        <module name="manager-web" />
+        <module name="order-web" />
+        <module name="product-web" />
+        <module name="search-web" />
+        <module name="sso-interface" />
+        <module name="sso-service" />
+        <module name="sso-web" />
+        <module name="youyijia-front-web" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel target="1.7">
+      <module name="atguigu-order" target="1.7" />
+      <module name="cart" target="1.7" />
+      <module name="cart-interface" target="1.7" />
+      <module name="cart-service" target="1.7" />
+      <module name="cart-web" target="1.7" />
+      <module name="common" target="1.7" />
+      <module name="manager" target="1.7" />
+      <module name="manager-interface" target="1.7" />
+      <module name="manager-mapper" target="1.7" />
+      <module name="manager-pojo" target="1.7" />
+      <module name="manager-service" target="1.7" />
+      <module name="manager-web" target="1.7" />
+      <module name="order-web" target="1.7" />
+      <module name="parent" target="1.7" />
+      <module name="product-web" target="1.7" />
+      <module name="search-web" target="1.7" />
+      <module name="sso" target="1.7" />
+      <module name="sso-interface" target="1.7" />
+      <module name="sso-service" target="1.7" />
+      <module name="sso-web" target="1.7" />
+      <module name="youyijia-front-web" target="1.7" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

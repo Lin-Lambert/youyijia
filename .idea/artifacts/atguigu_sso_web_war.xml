@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="atguigu-sso-web:war">
+    <output-path>$USER_HOME$/Desktop/Test/atguigu-sso-web/target</output-path>
+    <root id="archive" name="lambert-sso-web-1.0.0.war">
+      <element id="artifact" artifact-name="atguigu-sso-web:war exploded" />
+    </root>
+  </artifact>
+</component>

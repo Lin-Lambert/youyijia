@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/cart/cart.iml" filepath="$PROJECT_DIR$/cart/cart.iml" />
+      <module fileurl="file://$PROJECT_DIR$/cart/cart-interface/cart-interface.iml" filepath="$PROJECT_DIR$/cart/cart-interface/cart-interface.iml" />
+      <module fileurl="file://$PROJECT_DIR$/cart/cart-service/cart-service.iml" filepath="$PROJECT_DIR$/cart/cart-service/cart-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/cart-web/cart-web.iml" filepath="$PROJECT_DIR$/cart-web/cart-web.iml" />
+      <module fileurl="file://$PROJECT_DIR$/common/common.iml" filepath="$PROJECT_DIR$/common/common.iml" />
+      <module fileurl="file://$PROJECT_DIR$/manager/manager.iml" filepath="$PROJECT_DIR$/manager/manager.iml" />
+      <module fileurl="file://$PROJECT_DIR$/manager/manager-interface/manager-interface.iml" filepath="$PROJECT_DIR$/manager/manager-interface/manager-interface.iml" />
+      <module fileurl="file://$PROJECT_DIR$/manager/manager-mapper/manager-mapper.iml" filepath="$PROJECT_DIR$/manager/manager-mapper/manager-mapper.iml" />
+      <module fileurl="file://$PROJECT_DIR$/manager/manager-pojo/manager-pojo.iml" filepath="$PROJECT_DIR$/manager/manager-pojo/manager-pojo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/manager/manager-service/manager-service.iml" filepath="$PROJECT_DIR$/manager/manager-service/manager-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/manager-web/manager-web.iml" filepath="$PROJECT_DIR$/manager-web/manager-web.iml" />
+      <module fileurl="file://$PROJECT_DIR$/order-web/order-web.iml" filepath="$PROJECT_DIR$/order-web/order-web.iml" />
+      <module fileurl="file://$PROJECT_DIR$/parent/parent.iml" filepath="$PROJECT_DIR$/parent/parent.iml" />
+      <module fileurl="file://$PROJECT_DIR$/product-web/product-web.iml" filepath="$PROJECT_DIR$/product-web/product-web.iml" />
+      <module fileurl="file://$PROJECT_DIR$/search-web/search-web.iml" filepath="$PROJECT_DIR$/search-web/search-web.iml" />
+      <module fileurl="file://$PROJECT_DIR$/sso/sso.iml" filepath="$PROJECT_DIR$/sso/sso.iml" />
+      <module fileurl="file://$PROJECT_DIR$/sso/sso-interface/sso-interface.iml" filepath="$PROJECT_DIR$/sso/sso-interface/sso-interface.iml" />
+      <module fileurl="file://$PROJECT_DIR$/sso/sso-service/sso-service.iml" filepath="$PROJECT_DIR$/sso/sso-service/sso-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/sso-web/sso-web.iml" filepath="$PROJECT_DIR$/sso-web/sso-web.iml" />
+      <module fileurl="file://$PROJECT_DIR$/youyijia-front-web/youyijia-front-web.iml" filepath="$PROJECT_DIR$/youyijia-front-web/youyijia-front-web.iml" />
+    </modules>
+  </component>
+</project>

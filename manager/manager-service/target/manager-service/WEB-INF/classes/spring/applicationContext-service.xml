@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:p="http://www.springframework.org/schema/p"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xmlns:mvc="http://www.springframework.org/schema/mvc"
+       xmlns:dubbo="http://code.alibabatech.com/schema/dubbo"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd
+        http://www.springframework.org/schema/mvc http://www.springframework.org/schema/mvc/spring-mvc-4.0.xsd
+        http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context.xsd
+        http://code.alibabatech.com/schema/dubbo http://code.alibabatech.com/schema/dubbo/dubbo.xsd">
+
+    <!-- 扫描Service -->
+    <context:component-scan base-package="com.lambert.manager.service"/>
+
+    <!-- 注册dubbo服务 -->
+    <dubbo:application name="manager"/>
+    <!-- 配置注册中心 -->
+    <dubbo:registry protocol="zookeeper" address="192.168.74.140:2181"/>
+    <!-- 指定当前应用的暴露端口 -->
+    <dubbo:protocol name="dubbo" port="20880"/>
+
+    <!-- 暴露服务 -->
+    <dubbo:service interface="com.lambert.manager.service.TestDubboService" ref="testDubboServiceImpl" timeout="1000000"/>
+
+    <dubbo:service interface="com.lambert.manager.service.CategoryService" ref="categoryServiceImpl" timeout="1000000"/>
+
+    <dubbo:service interface="com.lambert.manager.service.ProductService" ref="productServiceImpl" timeout="1000000"/>
+
+    <dubbo:service interface="com.lambert.manager.service.ContentcategoryService" ref="contentcategoryServiceImpl" timeout="1000000"/>
+
+    <dubbo:service interface="com.lambert.manager.service.ContentService" ref="contentServiceImpl" timeout="1000000"/>
+</beans>

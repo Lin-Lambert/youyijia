@@ -1,0 +1,8 @@
+com\lambert\manager\service\CategoryService.class
+com\lambert\manager\service\ContentcategoryService.class
+com\lambert\manager\service\BaseService.class
+com\lambert\manager\service\ProductService.class
+com\lambert\manager\service\TestDubboService.class
+com\lambert\manager\service\com\lambert\manager\redis\utils\RedisUtils.class
+com\lambert\manager\service\ContentService.class
+com\lambert\manager\service\ProductdescService.class

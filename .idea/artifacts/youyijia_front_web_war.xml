@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="youyijia-front-web:war">
+    <output-path>$PROJECT_DIR$/youyijia-front-web/target</output-path>
+    <root id="archive" name="youyijia-front-web.war">
+      <element id="artifact" artifact-name="youyijia-front-web:war exploded" />
+    </root>
+  </artifact>
+</component>
